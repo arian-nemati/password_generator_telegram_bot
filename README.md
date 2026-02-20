@@ -37,6 +37,7 @@ A simple Telegram bot that helps you generate strong passwords and check their s
 
 ## Folder Structure
 
+```
 Telegram_password_generator_bot/
 │
 ├─ handlers/          # Command and message handlers
@@ -57,6 +58,7 @@ Telegram_password_generator_bot/
 ├─ bot.py             # Main bot file
 ├─ requirements.txt   # Dependencies
 └─ README.md          
+```
 
 ## Dependencies
 
@@ -70,3 +72,4 @@ pip install python-telegram-bot
 
 - The bot uses secrets for secure random password generation.
 - All interactions are stored temporarily in user_data during a session and cleared after password generation or strength checking.
+
